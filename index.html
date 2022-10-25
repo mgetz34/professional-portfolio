@@ -9,45 +9,60 @@
   </head>
   <body>
     <header>
-      <h1>Michael Getz</h1>
       <div>
+        <h1>Michael Getz</h1>
         <img
           src="./assets/images/Screenshot 2022-10-25 154227.png"
           alt="headshot"
         />
       </div>
       <nav>
-        <li>Resume</li>
-        <li>About Me</li>
-        <li>GitHub</li>
-        <li>Contact</li>
+        <ul>
+          <a href="#"><li>Resume</li></a>
+          <a href="#about"><li>About Me</li></a>
+          <a href="#github"><li>GitHub</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ul>
       </nav>
     </header>
-    <section>
-      <h2>About Me</h2>
-      <p>
-        My name is Michael Getz. I am training to be a full-stack web developer
-        and have a BS of Geology from Colorado Mesa University. Skills include
-        teamwork oriented problem solving and utilization of technical
-        resources.
-      </p>
-    </section>
-    <section>
-      <h2>GitHub</h2>
-      <div>
-        <h3>Prework Study Guide</h3>
-      </div>
-      <div>
-        <h3>More to come!</h3>
-      </div>
-    </section>
+    <main>
+        <section id="about">
+          <h2>About Me</h2>
+          <div class="">
+              <p>
+                My name is Michael Getz. I am training to be a full-stack web developer
+                and have a BS of Geology from Colorado Mesa University. Skills include
+                teamwork oriented problem solving and utilization of technical
+                resources.
+              </p>
+          </div>
+        </section>
+        <section id="github">
+          <h2>GitHub</h2>
+          <div class="projects">
+
+              <a href="#">
+                <h3>Prework Study Guide</h3>
+              </a>
+
+              <a href="#">
+                <h3>More to come!</h3>
+              </a>
+
+          </div>
+        </section>
+    </main>
     <footer>
       <h2>Contact</h2>
-      <div>
+      <div id="contact">
         <nav>
-          <li>C: 970-260-7915</li>
-          <li>E: mgetz340@gmail.com</li>
-          <li>Linkedin</li>
+            <ul>
+                 <a href="#"><li>C: 970-260-7915</li></a>
+          <a href="#"><li>E: mgetz340@gmail.com</li></a>
+          <a href="#"><li>Linkedin</li></a>
+          <a href="https://github.com/mgetz34/professional-portfolio"><li>GitHub</li></a> 
+            </ul>
+        
         </nav>
       </div>
     </footer>
