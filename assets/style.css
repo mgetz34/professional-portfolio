@@ -156,14 +156,3 @@ a:hover {
     background-color: rgb(117, 117, 219);
 }
 
-@media screen and (max-width: 768px) {
-    header,
-    main,
-    a 
-        flex-direction: column;
-    }
-
-    main {
-        max-width: 1200px;
-    }
-}
