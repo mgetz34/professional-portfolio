@@ -12,9 +12,7 @@ N/A
 
 ## Usage
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+![](assets/images/screenshot.png)
 
 ## Credits
 
